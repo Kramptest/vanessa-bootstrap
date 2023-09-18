@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Sep 14 18:35:44 MSK 2023","Thu Sep 14 18:36:04 MSK 2023","19838","","","","","","Демонстрация падения",""
+"passed","Thu Sep 14 18:34:48 MSK 2023","Thu Sep 14 18:35:43 MSK 2023","54950","","","","","","Создание заказа и проверка проставления скидки",""
+"passed","Thu Sep 14 18:33:07 MSK 2023","Thu Sep 14 18:34:47 MSK 2023","100328","","","","","","Проверка движения путем смены статуса с не обеспечивать на резервировать",""

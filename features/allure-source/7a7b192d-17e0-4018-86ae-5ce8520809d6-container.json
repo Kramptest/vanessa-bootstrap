@@ -1,0 +1,27 @@
+{
+	"uuid": "d67b554e-78ab-48b0-b68c-84bcfd503200",
+	"name": "Контекст_Демонстрация падения",
+	"description": "",
+	"children": [
+		"7a7b192d-17e0-4018-86ae-5ce8520809d6"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695017299281,
+			"stop": 1695017300165,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

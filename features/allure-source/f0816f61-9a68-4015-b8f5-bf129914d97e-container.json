@@ -1,0 +1,27 @@
+{
+	"uuid": "d87decbb-f367-43be-98c5-f1b08ef654b6",
+	"name": "Контекст_Проверка движения путем смены статуса с не обеспечивать на резервировать",
+	"description": "",
+	"children": [
+		"f0816f61-9a68-4015-b8f5-bf129914d97e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695017090569,
+			"stop": 1695017101089,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

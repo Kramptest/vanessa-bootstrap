@@ -1,0 +1,27 @@
+{
+	"uuid": "0a92b94b-08da-4fa7-8573-d5ff4496f11d",
+	"name": "Контекст_Создание заказа и проверка проставления скидки",
+	"description": "",
+	"children": [
+		"f3c94b74-2d1a-4946-be54-ae220219dae4"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695017241818,
+			"stop": 1695017242624,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
