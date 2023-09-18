@@ -1,1 +1,8 @@
-
+build/
+build
+allure-report/
+allure-report
+features\allure-source/
+features\allure-source
+features\allure-report/
+features\allure-report
