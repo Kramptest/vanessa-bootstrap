@@ -1,0 +1,71 @@
+{
+	"uuid": "4042139a-c18b-49ed-bb1d-e0972156a1ba",
+	"historyId": "ДвижениеТовараПоРегистрамВзависимостиОтСтатусаДокумента.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"start": 1694530062174,
+	"stop": 1694530062208,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Пустой адрес снипета у шага: И в таблице \"Список\" я активизирую дополнение формы с именем \"СписокСтрокаПоиска\"",
+		"trace": ""
+	},
+	"status": "pending",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И в таблице \"Список\" я активизирую дополнение формы с именем \"СписокСтрокаПоиска\"",
+			"start": 1694530062208,
+			"stop": 1694530062208,
+			"status": "pending",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Пустой адрес снипета у шага: И в таблице \"Список\" я активизирую дополнение формы с именем \"СписокСтрокаПоиска\"",
+				"trace": ""
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "СписокСтрокаПоиска"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "Microsoft Windows 10 version 10.0  (Build 14393)"
+		},
+		{
+			"name": "feature",
+			"value": "ДвижениеТовараПоРегистрамВзависимостиОтСтатусаДокумента"
+		},
+		{
+			"name": "story",
+			"value": " <описание фичи>"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": "\n\nКак <Роль> я хочу\n<описание функционала>\nчтобы <бизнес-эффект>"
+}

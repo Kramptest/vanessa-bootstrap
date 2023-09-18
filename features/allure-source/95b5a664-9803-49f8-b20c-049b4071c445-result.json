@@ -1,0 +1,115 @@
+{
+	"uuid": "95b5a664-9803-49f8-b20c-049b4071c445",
+	"historyId": "ДвижениеТовараПоРегистрамВзависимостиОтСтатусаДокумента.<описание сценария>",
+	"name": "<описание сценария>",
+	"fullName": null,
+	"start": 1694529453704,
+	"stop": 1694529456249,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Пустой адрес снипета у шага: И в таблице \"Список\" я активизирую дополнение формы с именем \"СписокСтрокаПоиска\"",
+		"trace": ""
+	},
+	"status": "pending",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Продажи' 'Заказы клиентов'",
+			"start": 1694529455005,
+			"stop": 1694529455041,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы клиентов'",
+			"start": 1694529455042,
+			"stop": 1694529456249,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я активизирую дополнение формы с именем \"СписокСтрокаПоиска\"",
+			"start": 1694529456249,
+			"stop": 1694529456249,
+			"status": "pending",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Пустой адрес снипета у шага: И в таблице \"Список\" я активизирую дополнение формы с именем \"СписокСтрокаПоиска\"",
+				"trace": ""
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "СписокСтрокаПоиска"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "Microsoft Windows 10 version 10.0  (Build 14393)"
+		},
+		{
+			"name": "feature",
+			"value": "ДвижениеТовараПоРегистрамВзависимостиОтСтатусаДокумента"
+		},
+		{
+			"name": "story",
+			"value": " <описание фичи>"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": "\n\nКак <Роль> я хочу\n<описание функционала>\nчтобы <бизнес-эффект>"
+}

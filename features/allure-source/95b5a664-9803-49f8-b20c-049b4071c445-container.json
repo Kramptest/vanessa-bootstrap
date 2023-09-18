@@ -1,0 +1,58 @@
+{
+	"uuid": "6ad98b18-5c3d-4d94-a1fe-fec1193d8a9d",
+	"name": "Контекст_<описание сценария>",
+	"description": "",
+	"children": [
+		"95b5a664-9803-49f8-b20c-049b4071c445"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1694529453740,
+			"stop": 1694529455005,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Дано Я открыл новый сеанс TestClient или подключил уже существующий",
+					"start": 1694529453740,
+					"stop": 1694529454210,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И    Я закрыл все окна клиентского приложения",
+					"start": 1694529454210,
+					"stop": 1694529455005,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"start": null,
+	"stop": null
+}
