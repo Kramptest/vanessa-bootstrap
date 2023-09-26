@@ -5,14 +5,23 @@
         "--db-pwd": "",
         "--ordinaryapp": "0",
         "--v8version": "8.3.22.1923"
-    }   
+    },  
     //},
     //"vanessa": {
    //     "--vanessasettings": "./tools/VAParams.json",
    //     "--workspace": "."
    //     //"--additional": "/DisplayAllFunctions /L ru"
    // }
-   
+   "xunit": {
+        "--xddConfig": "C:/Tester/Test_KRAMP/project directory/xUnitParams.json",
+        "--reportsxunit": "ГенераторОтчетаAllureXML{build//smoke/allure.json}", 
+        "--workspace": ".",
+        "--pathxunit": "$addRoot/xddTestRunner.epf",
+        "testPath": "./features/smoke"
+
+
+
+   }
 }
 
 

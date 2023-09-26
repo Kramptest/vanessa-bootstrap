@@ -1,0 +1,31 @@
+{
+    "$schema":"https://raw.githubusercontent.com/vanessa-opensource/vanessa-runner/develop/xunit-schema.json",
+    "Отладка":false,
+    "ДобавлятьИмяПользователяВПредставлениеТеста":true,
+    "ДелатьЛогВыполненияСценариевВТекстовыйФайл":true,
+    "ИмяФайлаЛогВыполненияСценариев": "$workspaceRoot/build/ServiceBases/log-xunit.txt",
+
+    
+
+    "smoke": {
+        "СтрогийПорядокВыполнения":true,
+        "ОткрываемФормыНаКлиентеТестирования":true,
+        "ВыводитьСообщенияВЖурналРегистрации":true,
+        "ИсключитьФормыЗависящиеОтОтключенныхФункциональныхОпций":true,
+
+        "СпособГруппировки":"ПоВидуМетаданных",
+        "КоличествоВГруппе":1,
+        "Справочники": false,
+        "Документы":  false,
+        "Отчеты": false,
+        "Обработки": false
+        
+    },
+    
+
+    "SmokeCommonModules": {
+        "Subsystems": ["*"],
+         "ExcludedCommonModules":["Пользователь","users"]
+    
+    }
+}
