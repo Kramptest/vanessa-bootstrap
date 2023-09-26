@@ -1,0 +1,27 @@
+{
+	"uuid": "723dc39e-bfc2-492b-8abb-331825d1027b",
+	"name": "Контекст_Open purchase orders: Снятия проведения",
+	"description": "",
+	"children": [
+		"a75c6a6a-b641-4b21-ae2e-e395fa129e1c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695648255180,
+			"stop": 1695648256868,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

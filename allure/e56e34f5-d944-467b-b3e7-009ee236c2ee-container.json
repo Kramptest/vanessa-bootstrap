@@ -1,0 +1,27 @@
+{
+	"uuid": "9dbb07fc-4fc2-40dc-bd8b-01669975d845",
+	"name": "Контекст_Регресс-Документ-ЗаказКлиента: Дополнительно CS, AM, FSM",
+	"description": "",
+	"children": [
+		"e56e34f5-d944-467b-b3e7-009ee236c2ee"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695654481886,
+			"stop": 1695654482871,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

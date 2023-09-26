@@ -1,0 +1,27 @@
+{
+	"uuid": "bb04fc6a-f08d-4d79-b505-210af8a18a31",
+	"name": "Контекст_Регресс-Документ-ЗаказыПоставщикам: Проверка на создание",
+	"description": "",
+	"children": [
+		"e65b81ca-2d5b-49ac-8442-ad371eff0d32"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695651775371,
+			"stop": 1695651776422,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

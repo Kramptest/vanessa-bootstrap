@@ -1,0 +1,298 @@
+{
+	"uuid": "43ca1493-4eca-468a-b030-18263bc5df3f",
+	"historyId": "Open purchase orders.Open purchase orders: 106 (Перемещение, сборка, внутр. потреб.)",
+	"name": "Open purchase orders: 106 (Перемещение, сборка, внутр. потреб.)",
+	"fullName": "open purchase orders.feature_open purchase orders: 106 (перемещение, сборка, внутр. потреб.)",
+	"testCaseId": "4fe5ea049922ee1c701edc1537268091",
+	"start": 1695648231804,
+	"stop": 1695648253883,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Закупки' 'Отчеты по закупкам'",
+			"start": 1695648233226,
+			"stop": 1695648233257,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Закупки"
+				},
+				{
+					"name": "Парам2",
+					"value": "Отчеты по закупкам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Отчеты по закупкам'",
+			"start": 1695648233257,
+			"stop": 1695648234032,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчеты по закупкам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на гиперссылку с именем \"Вариант_d51d57c214b211e98ce300505693134e_Подсистема_716a309a049011e9ac1c00505693134e\"",
+			"start": 1695648234033,
+			"stop": 1695648234043,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вариант_d51d57c214b211e98ce300505693134e_Подсистема_716a309a049011e9ac1c00505693134e"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно '* (Перемещение, сборка, внутр.потреб.)'",
+			"start": 1695648234043,
+			"stop": 1695648235834,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "* (Перемещение, сборка, внутр.потреб.)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем \"КомпоновщикНастроекПользовательскиеНастройкиЭлемент0Значение\"",
+			"start": 1695648235834,
+			"stop": 1695648235854,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КомпоновщикНастроекПользовательскиеНастройкиЭлемент0Значение"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Номенклатура'",
+			"start": 1695648235855,
+			"stop": 1695648236565,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номенклатура"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'СтрокаПоискаНоменклатура' я ввожу текст ' 036257GAL Пружина натяжная стальная'",
+			"start": 1695648236566,
+			"stop": 1695648236578,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтрокаПоискаНоменклатура"
+				},
+				{
+					"name": "Парам2",
+					"value": " 036257GAL Пружина натяжная стальная"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Найти'",
+			"start": 1695648236578,
+			"stop": 1695648236598,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Найти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СписокРасширенныйПоискНоменклатураВыбратьЗначениеНоменклатуры'",
+			"start": 1695648236598,
+			"stop": 1695648244687,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокРасширенныйПоискНоменклатураВыбратьЗначениеНоменклатуры"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И пауза 5",
+			"start": 1695648244687,
+			"stop": 1695648249883,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": 5
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СформироватьОтчет'",
+			"start": 1695648250086,
+			"stop": 1695648250118,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СформироватьОтчет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда табличный документ \"ОтчетТабличныйДокумент\" равен:",
+			"start": 1695648250118,
+			"stop": 1695648253883,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтчетТабличныйДокумент"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "e57f6ff6-d8ea-427e-958e-598562dcf4a8-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Open purchase orders: 106 (Перемещение, сборка, внутр. потреб.)"
+		},
+		{
+			"name": "feature",
+			"value": "Open purchase orders: 106 (Перемещение, сборка, внутр. потреб.)"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

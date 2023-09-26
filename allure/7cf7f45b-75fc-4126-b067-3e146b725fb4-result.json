@@ -1,0 +1,201 @@
+{
+	"uuid": "7cf7f45b-75fc-4126-b067-3e146b725fb4",
+	"historyId": "b24-1034.b24-1034",
+	"name": "b24-1034",
+	"fullName": "задача № 1034.feature_b24-1034",
+	"testCaseId": "2e03c8c188523881debf612f53676878",
+	"start": 1695648366396,
+	"stop": 1695648413815,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Ошибка при вызове конструктора (ЗаписьТекста):",
+		"trace": "{ВнешняяОбработка.РаботаСФайлами.Форма.Форма.Форма(324)}: Ошибка при вызове конструктора (ЗаписьТекста): Ошибка доступа к файлу 'Ошибка'\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Заказы клиентов\n        ИмяАктивнойФормы: Документ.ЗаказКлиента.Форма.ФормаСпискаДокументов\n        ИмяФичи: b24-1034\n        ИмяСценария: b24-1034\n        НомерСтрокиДерева: 204\n        НомерСтрокиФичи: 20\n        ПолныйПутьКФиче: C:\\Tester\\Test_KRAMP\\project directory\\features\\Задача № 1034.feature\n        ИмяФайла: C:/Tester/Test_KRAMP/project directory/tools/vanessa-automation.1.2.040.20/vanessa-automation/features/Libraries/РаботаСФайлами/РаботаСФайлами.epf\n        ИмяПроцедуры: ЯСоздаюФайл\n        ИмяРаннера: mru1t030\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"mru1a013\";Ref=\"KA2KL\";\n        ДопПараметрыПодключения: /N\"ЛатышевК\" \n        PIDКлиентаТестирования: 984\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1923\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:47 (ч:м:с)\n        ДатаВремяОшибки: 25.09.2023 16:26:53"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Продажи' 'Заказы клиентов'",
+			"start": 1695648367732,
+			"stop": 1695648367766,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы клиентов'",
+			"start": 1695648367767,
+			"stop": 1695648368532,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"ОтборСостояние\" я выбираю точное значение 'Ожидается согласование'",
+			"start": 1695648368532,
+			"stop": 1695648368575,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборСостояние"
+				},
+				{
+					"name": "Парам2",
+					"value": "Ожидается согласование"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если в таблице \"Список\" количество строк \"меньше или равно\" 0 Тогда",
+			"start": 1695648368576,
+			"stop": 1695648411419,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "меньше или равно"
+				},
+				{
+					"name": "Парам3",
+					"value": 0
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я создаю файл \"Ошибка\"",
+			"start": 1695648411419,
+			"stop": 1695648413813,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Ошибка при вызове конструктора (ЗаписьТекста):",
+				"trace": "{ВнешняяОбработка.РаботаСФайлами.Форма.Форма.Форма(324)}: Ошибка при вызове конструктора (ЗаписьТекста): Ошибка доступа к файлу 'Ошибка'\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Заказы клиентов\n        ИмяАктивнойФормы: Документ.ЗаказКлиента.Форма.ФормаСпискаДокументов\n        ИмяФичи: b24-1034\n        ИмяСценария: b24-1034\n        НомерСтрокиДерева: 204\n        НомерСтрокиФичи: 20\n        ПолныйПутьКФиче: C:\\Tester\\Test_KRAMP\\project directory\\features\\Задача № 1034.feature\n        ИмяФайла: C:/Tester/Test_KRAMP/project directory/tools/vanessa-automation.1.2.040.20/vanessa-automation/features/Libraries/РаботаСФайлами/РаботаСФайлами.epf\n        ИмяПроцедуры: ЯСоздаюФайл\n        ИмяРаннера: mru1t030\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"mru1a013\";Ref=\"KA2KL\";\n        ДопПараметрыПодключения: /N\"ЛатышевК\" \n        PIDКлиентаТестирования: 984\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1923\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:47 (ч:м:с)\n        ДатаВремяОшибки: 25.09.2023 16:26:53"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Ошибка"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "3433ba6c-773f-48ea-89a1-14d1010360ba-attachment.csv",
+					"type": "text/csv"
+				},
+				{
+					"name": "ЖурналРегистрации.mxl",
+					"source": "f3555a41-e68d-4dc9-99c1-4aef699a99a3-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЖурналРегистрации.html",
+					"source": "2a5a4a7f-5575-4f20-aa57-f3a914fc28a9-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ЖурналРегистрации.xlsx",
+					"source": "6e182f12-d7eb-4316-a925-aaa8a9b5925f-attachment.xlsx",
+					"type": "xlsx"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "b24-1034"
+		},
+		{
+			"name": "feature",
+			"value": "b24-1034"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "ЖурналРегистрации.mxl",
+			"source": "54ec579a-e4d4-4cb9-883e-7f46b07545c7-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЖурналРегистрации.html",
+			"source": "8401ca3d-7512-4766-bef1-a5400024241f-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЖурналРегистрации.xlsx",
+			"source": "e42c0c46-2c33-4692-88a8-18935db747c5-attachment.xlsx",
+			"type": "xlsx"
+		}
+	],
+	"description": null
+}

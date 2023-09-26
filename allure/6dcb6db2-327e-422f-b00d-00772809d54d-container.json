@@ -1,0 +1,27 @@
+{
+	"uuid": "e86ae337-11fa-4aae-a92a-707247175451",
+	"name": "Контекст_Регресс-РейсНаСклад: ID терминала",
+	"description": "",
+	"children": [
+		"6dcb6db2-327e-422f-b00d-00772809d54d"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695654608667,
+			"stop": 1695654609683,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

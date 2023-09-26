@@ -3,9 +3,15 @@
         "--ibconnection": "/Smru1a013\\KA2KL",
         "--db-user": "",
         "--db-pwd": "",
-        "--ordinaryapp": "0"
-         
-    }
+        "--ordinaryapp": "0",
+        "--v8version": "8.3.22.1923"
+    }   
+    //},
+    //"vanessa": {
+   //     "--vanessasettings": "./tools/VAParams.json",
+   //     "--workspace": "."
+   //     //"--additional": "/DisplayAllFunctions /L ru"
+   // }
    
 }
 

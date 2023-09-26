@@ -1,0 +1,27 @@
+{
+	"uuid": "aa415398-7806-479f-9e43-4149dabb93be",
+	"name": "Контекст_b24-1049 Проверка формы печати документа",
+	"description": "",
+	"children": [
+		"1a776f89-5684-4e31-ba83-cf2240cc955c"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695648459391,
+			"stop": 1695648465674,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

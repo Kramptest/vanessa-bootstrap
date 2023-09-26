@@ -1,0 +1,358 @@
+{
+	"uuid": "fa8d656f-9d66-462c-9400-cffb30e8efb6",
+	"historyId": "Эквайринг.Эквайринг: проверка на работу кнопки \"Создать комиссию\"",
+	"name": "Эквайринг: проверка на работу кнопки \"Создать комиссию\"",
+	"fullName": "эквайринг.feature_эквайринг: проверка на работу кнопки \"создать комиссию\"",
+	"testCaseId": "cba9e0d79444a4d4daa79a7ee8fb5044",
+	"start": 1695649067249,
+	"stop": 1695649079498,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Казначейство' 'Дополнительные обработки'",
+			"start": 1695649073342,
+			"stop": 1695649073389,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Казначейство"
+				},
+				{
+					"name": "Парам2",
+					"value": "Дополнительные обработки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Дополнительные обработки (Казначейство)'",
+			"start": 1695649073389,
+			"stop": 1695649073611,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Дополнительные обработки (Казначейство)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ТаблицаКоманд\" я перехожу к строке:",
+			"start": 1695649073611,
+			"stop": 1695649073621,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТаблицаКоманд"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "40bb4624-5e44-45fe-bf6e-ab38845c7c7d-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ВыполнитьОбработку'",
+			"start": 1695649073622,
+			"stop": 1695649073631,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВыполнитьОбработку"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"Терминал\" я выбираю точное значение 'Пэймастер'",
+			"start": 1695649073631,
+			"stop": 1695649079076,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Терминал"
+				},
+				{
+					"name": "Парам2",
+					"value": "Пэймастер"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем \"ОплатаДляОбработки\" стал равен ''",
+			"start": 1695649079076,
+			"stop": 1695649079092,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОплатаДляОбработки"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И у элемента формы с именем \"ОплатаСуммаОплаты\" текст редактирования стал равен '0,00'",
+			"start": 1695649079092,
+			"stop": 1695649079092,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОплатаСуммаОплаты"
+				},
+				{
+					"name": "Парам2",
+					"value": "0,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем \"ОплатаНомер\" стал равен ''",
+			"start": 1695649079092,
+			"stop": 1695649079092,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОплатаНомер"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем \"Реестр\" стал равен ''",
+			"start": 1695649079092,
+			"stop": 1695649079108,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Реестр"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем \"Комиссия\" стал равен ''",
+			"start": 1695649079108,
+			"stop": 1695649079108,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Комиссия"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Обработка платежей эквайринга'",
+			"start": 1695649079108,
+			"stop": 1695649079108,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Обработка платежей эквайринга"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СоздатьКомиссию'",
+			"start": 1695649079108,
+			"stop": 1695649079123,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СоздатьКомиссию"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно '1С:Предприятие'",
+			"start": 1695649079123,
+			"stop": 1695649079483,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "1С:Предприятие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'OK'",
+			"start": 1695649079483,
+			"stop": 1695649079498,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "OK"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Эквайринг: проверка на работу кнопки \"Создать комиссию\""
+		},
+		{
+			"name": "feature",
+			"value": "Эквайринг: проверка на работу кнопки \"Создать комиссию\""
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,581 @@
+{
+	"uuid": "45fe2ac7-69b9-4cda-ab16-bf1403850024",
+	"historyId": "Open purchase orders.Open purchase orders: Проведение тестовых документов",
+	"name": "Open purchase orders: Проведение тестовых документов",
+	"fullName": "open purchase orders.feature_open purchase orders: проведение тестовых документов",
+	"testCaseId": "0272a0736115b7e0f0fa59627423c61c",
+	"start": 1695650415700,
+	"stop": 1695650450871,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Таблица формы с именем <Список> не найдена.",
+		"trace": "{ВнешняяОбработка.VanessaAutomation.Форма.УправляемаяФорма.Форма(7475)}: {ВнешняяОбработка.VanessaAutomation.Форма.УправляемаяФорма.Форма(6604)}: Таблица формы с именем <Список> не найдена.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Доступ к 1С:Документообороту\n        ИмяАктивнойФормы: Обработка.ИнтеграцияС1СДокументооборотБазоваяФункциональность.Форма.АвторизацияВ1СДокументооборот\n        ИмяФичи: Open purchase orders\n        ИмяСценария: Open purchase orders: Проведение тестовых документов\n        НомерСтрокиДерева: 13\n        НомерСтрокиФичи: 23\n        ПолныйПутьКФиче: C:\\Tester\\Test_KRAMP\\project directory\\features\\Open purchase orders.feature\n        ИмяФайла: C:/Tester/Test_KRAMP/project directory/tools/vanessa-automation.1.2.040.20/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯВыбираюТекущуюСтроку\n        ИмяРаннера: mru1t030\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"mru1a013\";Ref=\"KA2KL\";\n        ДопПараметрыПодключения: /N\"ЛатышевК\" \n        PIDКлиентаТестирования: 592\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1923\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:35 (ч:м:с)\n        ДатаВремяОшибки: 25.09.2023 17:00:50"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Закупки' 'Заказы поставщикам'",
+			"start": 1695650426463,
+			"stop": 1695650426557,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Закупки"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы поставщикам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы поставщикам'",
+			"start": 1695650426557,
+			"stop": 1695650438956,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы поставщикам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я нажимаю на кнопку с именем 'СписокНайти'",
+			"start": 1695650438956,
+			"stop": 1695650440232,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "СписокНайти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Найти'",
+			"start": 1695650440233,
+			"stop": 1695650440435,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Найти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"FieldSelector\" я выбираю точное значение 'Номер'",
+			"start": 1695650440435,
+			"stop": 1695650440466,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FieldSelector"
+				},
+				{
+					"name": "Парам2",
+					"value": "Номер"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Pattern' я ввожу текст '00КР-004258'",
+			"start": 1695650440466,
+			"stop": 1695650440489,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Pattern"
+				},
+				{
+					"name": "Парам2",
+					"value": "00КР-004258"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'CompareType' на 'По точному совпадению'",
+			"start": 1695650440490,
+			"stop": 1695650440505,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CompareType"
+				},
+				{
+					"name": "Парам2",
+					"value": "По точному совпадению"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Find'",
+			"start": 1695650440506,
+			"stop": 1695650440523,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Find"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я выбираю текущую строку",
+			"start": 1695650440523,
+			"stop": 1695650450871,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Таблица формы с именем <Список> не найдена.",
+				"trace": "{ВнешняяОбработка.VanessaAutomation.Форма.УправляемаяФорма.Форма(7475)}: {ВнешняяОбработка.VanessaAutomation.Форма.УправляемаяФорма.Форма(6604)}: Таблица формы с именем <Список> не найдена.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Доступ к 1С:Документообороту\n        ИмяАктивнойФормы: Обработка.ИнтеграцияС1СДокументооборотБазоваяФункциональность.Форма.АвторизацияВ1СДокументооборот\n        ИмяФичи: Open purchase orders\n        ИмяСценария: Open purchase orders: Проведение тестовых документов\n        НомерСтрокиДерева: 13\n        НомерСтрокиФичи: 23\n        ПолныйПутьКФиче: C:\\Tester\\Test_KRAMP\\project directory\\features\\Open purchase orders.feature\n        ИмяФайла: C:/Tester/Test_KRAMP/project directory/tools/vanessa-automation.1.2.040.20/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯВыбираюТекущуюСтроку\n        ИмяРаннера: mru1t030\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"mru1a013\";Ref=\"KA2KL\";\n        ДопПараметрыПодключения: /N\"ЛатышевК\" \n        PIDКлиентаТестирования: 592\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1923\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:35 (ч:м:с)\n        ДатаВремяОшибки: 25.09.2023 17:00:50"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "ЖурналРегистрации.mxl",
+					"source": "fe7fd3de-4195-4a46-840e-1d204ac98814-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЖурналРегистрации.html",
+					"source": "6ccf8a56-2f13-4ada-80a1-e4debf63bb50-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ЖурналРегистрации.xlsx",
+					"source": "58faabbb-c5e4-449b-bf80-45ef8d70809e-attachment.xlsx",
+					"type": "xlsx"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровести"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И пауза 10",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": 10
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю текущее окно",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы поставщикам'",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы поставщикам"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я нажимаю на кнопку с именем 'СписокНайти'",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "СписокНайти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Найти'",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Найти"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"FieldSelector\" я выбираю точное значение 'Номер'",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "FieldSelector"
+				},
+				{
+					"name": "Парам2",
+					"value": "Номер"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Pattern' я ввожу текст '00КР-004257'",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Pattern"
+				},
+				{
+					"name": "Парам2",
+					"value": "00КР-004257"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я меняю значение переключателя с именем 'CompareType' на 'По точному совпадению'",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "CompareType"
+				},
+				{
+					"name": "Парам2",
+					"value": "По точному совпадению"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Find'",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Find"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я выбираю текущую строку",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаПровести"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И пауза 10",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": 10
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю текущее окно",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я закрываю текущее окно",
+			"start": 1695650450871,
+			"stop": 1695650450871,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Open purchase orders: Проведение тестовых документов"
+		},
+		{
+			"name": "feature",
+			"value": "Open purchase orders: Проведение тестовых документов"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "ЖурналРегистрации.mxl",
+			"source": "ab5ed911-f764-4f67-afd5-b7fbb675b891-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЖурналРегистрации.html",
+			"source": "19ef024e-efec-4000-989e-468a3cb79532-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЖурналРегистрации.xlsx",
+			"source": "c4bb6dc9-4118-461a-a3b3-3aa591297298-attachment.xlsx",
+			"type": "xlsx"
+		}
+	],
+	"description": null
+}

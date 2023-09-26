@@ -1,0 +1,27 @@
+{
+	"uuid": "f196335a-b4bd-4f75-a2cf-ea0294710b23",
+	"name": "Контекст_Эквайринг: проверка на работу кнопки \"Создать комиссию\" при заполненных оплатах",
+	"description": "",
+	"children": [
+		"89544d62-94ff-4152-ac98-102d59ee8a1b"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695650993232,
+			"stop": 1695650994376,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

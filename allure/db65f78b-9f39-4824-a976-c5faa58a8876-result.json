@@ -1,0 +1,288 @@
+{
+	"uuid": "db65f78b-9f39-4824-a976-c5faa58a8876",
+	"historyId": "Регресс-Документ-ЗаказКлиента.Регресс-Документ-ЗаказКлиента: Kr сальдо расчетов",
+	"name": "Регресс-Документ-ЗаказКлиента: Kr сальдо расчетов",
+	"fullName": "заказ клиента регресс.feature_регресс-документ-заказклиента: kr сальдо расчетов",
+	"testCaseId": "68c9948790982c1a2608ed7747b3dd7a",
+	"start": 1695648615975,
+	"stop": 1695648644652,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Окно с заголовком <Сальдо расчетов> не найдено.",
+		"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(2681)}: Окно с заголовком <Сальдо расчетов> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <Заказ клиента (создание)>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Заказ клиента (создание)\n        ИмяАктивнойФормы: Документ.ЗаказКлиента.Форма.ФормаДокумента\n        ИмяФичи: Регресс-Документ-ЗаказКлиента\n        ИмяСценария: Регресс-Документ-ЗаказКлиента: Kr сальдо расчетов\n        НомерСтрокиДерева: 586\n        НомерСтрокиФичи: 81\n        ПолныйПутьКФиче: C:\\Tester\\Test_KRAMP\\project directory\\features\\Заказ Клиента регресс.feature\n        ИмяФайла: C:/Tester/Test_KRAMP/project directory/tools/vanessa-automation.1.2.040.20/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: mru1t030\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"mru1a013\";Ref=\"KA2KL\";\n        ДопПараметрыПодключения: /N\"ЛатышевК\" \n        PIDКлиентаТестирования: 984\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1923\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:24 (ч:м:с)\n        ДатаВремяОшибки: 25.09.2023 16:30:39"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Продажи' 'Заказы клиентов'",
+			"start": 1695648621876,
+			"stop": 1695648621907,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы клиентов'",
+			"start": 1695648621907,
+			"stop": 1695648622971,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я нажимаю на кнопку с именем 'СписокСоздать'",
+			"start": 1695648622971,
+			"stop": 1695648622988,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "СписокСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказ клиента (создание)'",
+			"start": 1695648622989,
+			"stop": 1695648625423,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ клиента (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем \"ГруппаОсновное\"",
+			"start": 1695648625423,
+			"stop": 1695648625438,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаОсновное"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на гиперссылку с именем \"krСальдоРасчетов\"",
+			"start": 1695648625439,
+			"stop": 1695648625485,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "krСальдоРасчетов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Сальдо расчетов'",
+			"start": 1695648625485,
+			"stop": 1695648644650,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Окно с заголовком <Сальдо расчетов> не найдено.",
+				"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(2681)}: Окно с заголовком <Сальдо расчетов> не найдено. Таймаут поиска окна: <10>. Заголовок активного окна: <Заказ клиента (создание)>.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Заказ клиента (создание)\n        ИмяАктивнойФормы: Документ.ЗаказКлиента.Форма.ФормаДокумента\n        ИмяФичи: Регресс-Документ-ЗаказКлиента\n        ИмяСценария: Регресс-Документ-ЗаказКлиента: Kr сальдо расчетов\n        НомерСтрокиДерева: 586\n        НомерСтрокиФичи: 81\n        ПолныйПутьКФиче: C:\\Tester\\Test_KRAMP\\project directory\\features\\Заказ Клиента регресс.feature\n        ИмяФайла: C:/Tester/Test_KRAMP/project directory/tools/vanessa-automation.1.2.040.20/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ОткрылосьОкно\n        ИмяРаннера: mru1t030\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"mru1a013\";Ref=\"KA2KL\";\n        ДопПараметрыПодключения: /N\"ЛатышевК\" \n        PIDКлиентаТестирования: 984\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1923\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:24 (ч:м:с)\n        ДатаВремяОшибки: 25.09.2023 16:30:39"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Сальдо расчетов"
+				}
+			],
+			"attachments": [
+				{
+					"name": "ЖурналРегистрации.mxl",
+					"source": "69681986-7ac8-4b7b-a8f3-3fc5f3655469-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЖурналРегистрации.html",
+					"source": "141b55f6-0ded-4593-8545-bd42b08aa739-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ЖурналРегистрации.xlsx",
+					"source": "8153d8b4-d3b6-417e-bd63-41097f1b33bc-attachment.xlsx",
+					"type": "xlsx"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Заказ клиента (создание)'",
+			"start": 1695648644652,
+			"stop": 1695648644652,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ клиента (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы клиентов'",
+			"start": 1695648644652,
+			"stop": 1695648644652,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Заказы клиентов'",
+			"start": 1695648644652,
+			"stop": 1695648644652,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Регресс-Документ-ЗаказКлиента: Kr сальдо расчетов"
+		},
+		{
+			"name": "feature",
+			"value": "Регресс-Документ-ЗаказКлиента: Kr сальдо расчетов"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "ЖурналРегистрации.mxl",
+			"source": "e76c7899-8f8d-4e87-bd4d-e39f5d3c3ac6-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЖурналРегистрации.html",
+			"source": "b82bfa43-d02d-42d6-93f2-a845176b1be5-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЖурналРегистрации.xlsx",
+			"source": "fc4fd0d2-d9a6-4e66-aed5-294bb2bc1299-attachment.xlsx",
+			"type": "xlsx"
+		}
+	],
+	"description": null
+}

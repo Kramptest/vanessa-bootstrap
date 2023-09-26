@@ -1,0 +1,27 @@
+{
+	"uuid": "1b742d9d-956c-4f5e-8c82-d396245eb527",
+	"name": "Контекст_Регресс-Документ-ЗаказКлиента: Кнопка Обеспечить",
+	"description": "",
+	"children": [
+		"0e33c7a1-2689-4eb5-bdb1-30b2feef42ad"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695650777941,
+			"stop": 1695650779035,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

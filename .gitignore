@@ -1,6 +1,20 @@
+
+# Файлы
+*.log
+*.ospx
+
+
+
+*.epf
+
+**/ConfigDumpInfo.xml
+.vscode/launch.json
+tools/oscript.cfg
+src/oscript.cfg
+
+# Каталоги
 build/
-build
+oscript_modules/
+coverage/
+.scannerwork/
 allure-report/
-allure-report
-allure-source/
-allure-source

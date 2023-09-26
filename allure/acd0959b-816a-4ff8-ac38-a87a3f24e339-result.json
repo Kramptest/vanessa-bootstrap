@@ -1,0 +1,166 @@
+{
+	"uuid": "acd0959b-816a-4ff8-ac38-a87a3f24e339",
+	"historyId": "b24-1131.b24-1131",
+	"name": "b24-1131",
+	"fullName": "задача № 1131.feature_b24-1131",
+	"testCaseId": "db557d8ff261b8a93fa20ae48941f176",
+	"start": 1695654367558,
+	"stop": 1695654374418,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Продажи' 'Заказы клиентов'",
+			"start": 1695654369918,
+			"stop": 1695654369949,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы клиентов'",
+			"start": 1695654369949,
+			"stop": 1695654370746,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"ОтборСостояние\" я выбираю точное значение 'Готов к закрытию'",
+			"start": 1695654370746,
+			"stop": 1695654370793,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтборСостояние"
+				},
+				{
+					"name": "Парам2",
+					"value": "Готов к закрытию"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если в таблице \"Список\" количество строк \"меньше или равно\" 0 Тогда",
+			"start": 1695654370793,
+			"stop": 1695654374418,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "меньше или равно"
+				},
+				{
+					"name": "Парам3",
+					"value": 0
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я создаю файл \"Ошибка\"",
+			"start": 1695654374418,
+			"stop": 1695654374418,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Ошибка"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "6709c077-f6da-41d1-8216-ff9d6b823acc-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "b24-1131"
+		},
+		{
+			"name": "feature",
+			"value": "b24-1131"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

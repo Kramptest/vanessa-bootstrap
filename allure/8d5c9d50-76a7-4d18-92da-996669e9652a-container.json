@@ -1,0 +1,27 @@
+{
+	"uuid": "3fceb6c3-370e-4b95-86b7-4d74b68db3dc",
+	"name": "Контекст_Регресс-РейсНаСклад: создается рейс",
+	"description": "",
+	"children": [
+		"8d5c9d50-76a7-4d18-92da-996669e9652a"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695650931105,
+			"stop": 1695650932199,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

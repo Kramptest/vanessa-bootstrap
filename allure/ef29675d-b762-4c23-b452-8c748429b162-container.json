@@ -1,0 +1,27 @@
+{
+	"uuid": "9d1138b2-87cd-475c-836c-04bed4f2456a",
+	"name": "Контекст_Регресс-РейсНаСклад: Форма адреса",
+	"description": "",
+	"children": [
+		"ef29675d-b762-4c23-b452-8c748429b162"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695651826969,
+			"stop": 1695651828062,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

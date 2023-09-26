@@ -1,0 +1,27 @@
+{
+	"uuid": "053052e6-1461-49d1-a54e-1fe4ce3c751a",
+	"name": "Контекст_Эквайринг: проверка на работу кнопки \"Создать комиссию\"",
+	"description": "",
+	"children": [
+		"6215fe01-b8b6-4755-9d63-5dead5627bd2"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695650986837,
+			"stop": 1695650988121,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

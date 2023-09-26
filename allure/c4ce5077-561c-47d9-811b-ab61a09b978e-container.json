@@ -1,0 +1,27 @@
+{
+	"uuid": "7d2cfa01-ecee-4a09-a819-004edfc1322f",
+	"name": "Контекст_Open purchase orders: Формирование отчета Open purchase orders",
+	"description": "",
+	"children": [
+		"c4ce5077-561c-47d9-811b-ab61a09b978e"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695648206202,
+			"stop": 1695648207283,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,509 @@
+{
+	"uuid": "56b3b363-e74a-4c73-bbba-1254c36b999a",
+	"historyId": "Заведом обреченный тест.Демонстрация падения",
+	"name": "Демонстрация падения",
+	"fullName": "тестнападение.feature_демонстрация падения",
+	"testCaseId": "433585d77c47b58753d97d7ce94397a0",
+	"start": 1695651847480,
+	"stop": 1695651866095,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Таблица <Товары>.",
+		"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(6310)}: {ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(6291)}: Таблица <Товары>. Строка №<1>. Колонка <PE, %>. Ожидали <33>, а получили <30>\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Заказ клиента (создание) *\n        ИмяАктивнойФормы: Документ.ЗаказКлиента.Форма.ФормаДокумента\n        ИмяФичи: Заведом обреченный тест\n        ИмяСценария: Демонстрация падения\n        НомерСтрокиДерева: 975\n        НомерСтрокиФичи: 25\n        ПолныйПутьКФиче: C:\\Tester\\Test_KRAMP\\project directory\\features\\ТестНаПадение.feature\n        ИмяФайла: C:/Tester/Test_KRAMP/project directory/tools/vanessa-automation.1.2.040.20/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ТаблицаСталаРавной\n        ИмяРаннера: mru1t030\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"mru1a013\";Ref=\"KA2KL\";\n        ДопПараметрыПодключения: /N\"ЛатышевК\" \n        PIDКлиентаТестирования: 16776\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1923\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:17 (ч:м:с)\n        ДатаВремяОшибки: 25.09.2023 17:24:24"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Продажи' 'Заказы клиентов'",
+			"start": 1695651848904,
+			"stop": 1695651848936,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Продажи"
+				},
+				{
+					"name": "Парам2",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы клиентов'",
+			"start": 1695651848936,
+			"stop": 1695651849730,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я нажимаю на кнопку с именем 'СписокСоздать'",
+			"start": 1695651849730,
+			"stop": 1695651849751,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				},
+				{
+					"name": "Парам2",
+					"value": "СписокСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказ клиента (создание)'",
+			"start": 1695651849751,
+			"stop": 1695651852137,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ клиента (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем \"ГруппаОсновное\"",
+			"start": 1695651852137,
+			"stop": 1695651852152,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаОсновное"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"ПартнерБезКЛ\" я выбираю по строке 'ПартсМенеджер ТК'",
+			"start": 1695651852152,
+			"stop": 1695651854615,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ПартнерБезКЛ"
+				},
+				{
+					"name": "Парам2",
+					"value": "ПартсМенеджер ТК"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем \"ГруппаТовары\"",
+			"start": 1695651854615,
+			"stop": 1695651854646,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ГруппаТовары"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Товары\" я нажимаю на кнопку с именем 'ТоварыДобавить'",
+			"start": 1695651854646,
+			"stop": 1695651854724,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Товары"
+				},
+				{
+					"name": "Парам2",
+					"value": "ТоварыДобавить"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Товары\" из выпадающего списка с именем \"ТоварыНоменклатура\" я выбираю по строке '0000028610KR Звено переходное'",
+			"start": 1695651854724,
+			"stop": 1695651859567,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Товары"
+				},
+				{
+					"name": "Парам2",
+					"value": "ТоварыНоменклатура"
+				},
+				{
+					"name": "Парам3",
+					"value": "0000028610KR Звено переходное"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Товары\" я завершаю редактирование строки",
+			"start": 1695651859567,
+			"stop": 1695651859580,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Товары"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда таблица \"Товары\" стала равной:",
+			"start": 1695651859581,
+			"stop": 1695651866095,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Таблица <Товары>.",
+				"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(6310)}: {ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(6291)}: Таблица <Товары>. Строка №<1>. Колонка <PE, %>. Ожидали <33>, а получили <30>\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Заказ клиента (создание) *\n        ИмяАктивнойФормы: Документ.ЗаказКлиента.Форма.ФормаДокумента\n        ИмяФичи: Заведом обреченный тест\n        ИмяСценария: Демонстрация падения\n        НомерСтрокиДерева: 975\n        НомерСтрокиФичи: 25\n        ПолныйПутьКФиче: C:\\Tester\\Test_KRAMP\\project directory\\features\\ТестНаПадение.feature\n        ИмяФайла: C:/Tester/Test_KRAMP/project directory/tools/vanessa-automation.1.2.040.20/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ТаблицаСталаРавной\n        ИмяРаннера: mru1t030\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"mru1a013\";Ref=\"KA2KL\";\n        ДопПараметрыПодключения: /N\"ЛатышевК\" \n        PIDКлиентаТестирования: 16776\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1923\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:17 (ч:м:с)\n        ДатаВремяОшибки: 25.09.2023 17:24:24"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Товары"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "26ff9b4d-ade0-4d5b-aeaa-b18cab8e58ec-attachment.csv",
+					"type": "text/csv"
+				},
+				{
+					"name": "Различия.mxl",
+					"source": "6e3d25af-c2aa-424a-a44c-6d2f333e92b4-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "Различия.html",
+					"source": "a1ef53dd-3c60-4d39-b219-691a4c83c155-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ЭталонноеЗначениеТаблицы.mxl",
+					"source": "db5e7863-738a-454d-ad73-564fbf9e528d-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЭталонноеЗначениеТаблицы.html",
+					"source": "43961b28-8178-4a17-a977-0fc3f62ce099-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ТекущееЗначениеТаблицы.mxl",
+					"source": "af3cb7bf-80df-41ee-af6a-b598158da723-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ТекущееЗначениеТаблицы.html",
+					"source": "fa22c76c-be97-4b6c-a9c0-94835f3d3a73-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ЖурналРегистрации.mxl",
+					"source": "795ba6aa-cba0-42f5-8eaa-4f7cdcaf6925-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЖурналРегистрации.html",
+					"source": "1b4ba3ed-0533-41b9-bb47-1c6317037c73-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ЖурналРегистрации.xlsx",
+					"source": "84586b12-0984-4687-a5d5-fd8fc5373a02-attachment.xlsx",
+					"type": "xlsx"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Заказ клиента (создание) *'",
+			"start": 1695651866095,
+			"stop": 1695651866095,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ клиента (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Заказ клиента (создание) *'",
+			"start": 1695651866095,
+			"stop": 1695651866095,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказ клиента (создание) *"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно '1С:Предприятие'",
+			"start": 1695651866095,
+			"stop": 1695651866095,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "1С:Предприятие"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'Button1'",
+			"start": 1695651866095,
+			"stop": 1695651866095,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Button1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Заказы клиентов'",
+			"start": 1695651866095,
+			"stop": 1695651866095,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Заказы клиентов'",
+			"start": 1695651866095,
+			"stop": 1695651866095,
+			"status": "skipped",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы клиентов"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Демонстрация падения"
+		},
+		{
+			"name": "feature",
+			"value": "Демонстрация падения"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "Различия.mxl",
+			"source": "a413e69b-163b-425f-82c5-2487f6001c04-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "Различия.html",
+			"source": "cf4c1b43-e800-4f10-af5d-5e584d30f703-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЭталонноеЗначениеТаблицы.mxl",
+			"source": "6912e726-7d09-44d2-827f-d18de74c68e0-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЭталонноеЗначениеТаблицы.html",
+			"source": "b8868156-f746-4937-82fe-d876d6745a57-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ТекущееЗначениеТаблицы.mxl",
+			"source": "6b60517e-396d-4eb4-a89a-17cffbe4c94b-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ТекущееЗначениеТаблицы.html",
+			"source": "c526c9fe-10a8-469d-a1b8-80d534c8b6e8-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЖурналРегистрации.mxl",
+			"source": "1151aee1-715d-448e-88fe-1c970fa03573-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЖурналРегистрации.html",
+			"source": "637aace4-42d6-4b71-b2b7-e25106cffab2-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЖурналРегистрации.xlsx",
+			"source": "32f90d14-f952-4718-9766-febaca1bedee-attachment.xlsx",
+			"type": "xlsx"
+		}
+	],
+	"description": null
+}

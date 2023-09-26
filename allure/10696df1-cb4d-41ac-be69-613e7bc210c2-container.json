@@ -1,0 +1,27 @@
+{
+	"uuid": "c6e6734b-9bd0-40e4-8f17-9ce15f1a4282",
+	"name": "Контекст_Open purchase orders: Проведение тестовых документов",
+	"description": "",
+	"children": [
+		"10696df1-cb4d-41ac-be69-613e7bc210c2"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695651292184,
+			"stop": 1695651303857,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

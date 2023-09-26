@@ -1,0 +1,27 @@
+{
+	"uuid": "13ea35c6-8de1-47ab-849d-8388d0ee8497",
+	"name": "Контекст_b24-1129 Проверка на пустые сроки",
+	"description": "",
+	"children": [
+		"a15c9b31-2068-4442-938e-64c24d696ed4"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695650664785,
+			"stop": 1695650665910,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

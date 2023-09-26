@@ -1,0 +1,381 @@
+{
+	"uuid": "89544d62-94ff-4152-ac98-102d59ee8a1b",
+	"historyId": "Эквайринг.Эквайринг: проверка на работу кнопки \"Создать комиссию\" при заполненных оплатах",
+	"name": "Эквайринг: проверка на работу кнопки \"Создать комиссию\" при заполненных оплатах",
+	"fullName": "эквайринг.feature_эквайринг: проверка на работу кнопки \"создать комиссию\" при заполненных оплатах",
+	"testCaseId": "8a0f5e73684811cd7861776a382fa9dd",
+	"start": 1695650993232,
+	"stop": 1695651002144,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Казначейство' 'Дополнительные обработки'",
+			"start": 1695650994565,
+			"stop": 1695650994594,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Казначейство"
+				},
+				{
+					"name": "Парам2",
+					"value": "Дополнительные обработки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Дополнительные обработки (Казначейство)'",
+			"start": 1695650994594,
+			"stop": 1695650994687,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Дополнительные обработки (Казначейство)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"ТаблицаКоманд\" я перехожу к строке:",
+			"start": 1695650994687,
+			"stop": 1695650994703,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТаблицаКоманд"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "ba8d21df-5a97-4981-bd85-9f66b64dce71-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ВыполнитьОбработку'",
+			"start": 1695650994703,
+			"stop": 1695650994703,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВыполнитьОбработку"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И из выпадающего списка с именем \"Терминал\" я выбираю точное значение 'Пэймастер'",
+			"start": 1695650994703,
+			"stop": 1695650998408,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Терминал"
+				},
+				{
+					"name": "Парам2",
+					"value": "Пэймастер"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем \"ОплатаДляОбработки\"",
+			"start": 1695650998408,
+			"stop": 1695650998439,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОплатаДляОбработки"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Поступления безналичных денежных средств'",
+			"start": 1695650998439,
+			"stop": 1695651000536,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Поступления безналичных денежных средств"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в таблице \"Список\" я перехожу к строке:",
+			"start": 1695651000536,
+			"stop": 1695651001442,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Список"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "a095c908-fe8b-41a5-b926-ea6ebce54b80-attachment.csv",
+					"type": "text/csv"
+				}
+			],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаВыбрать'",
+			"start": 1695651001442,
+			"stop": 1695651001488,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаВыбрать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем \"ОплатаСуммаОплаты\" стал равен '4 711,04'",
+			"start": 1695651001488,
+			"stop": 1695651001769,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОплатаСуммаОплаты"
+				},
+				{
+					"name": "Парам2",
+					"value": "4 711,04"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем \"ОплатаНомер\" стал равен '130398'",
+			"start": 1695651001769,
+			"stop": 1695651001769,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОплатаНомер"
+				},
+				{
+					"name": "Парам2",
+					"value": "130398"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем \"Комиссия\" стал равен 'Отчет банка по эквайрингу 00КР-000012 от 16.02.2022 0:00:00'",
+			"start": 1695651001769,
+			"stop": 1695651001769,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Комиссия"
+				},
+				{
+					"name": "Парам2",
+					"value": "Отчет банка по эквайрингу 00КР-000012 от 16.02.2022 0:00:00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы с именем \"КомиссияСуммаКомиссии\" стал равен '113,37'",
+			"start": 1695651001769,
+			"stop": 1695651001769,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КомиссияСуммаКомиссии"
+				},
+				{
+					"name": "Парам2",
+					"value": "113,37"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Если элемент \"СоздатьКомиссию\" не доступен для редактирования Тогда",
+			"start": 1695651001769,
+			"stop": 1695651002144,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СоздатьКомиссию"
+				}
+			],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И Я закрываю окно 'Обработка платежей эквайринга'",
+					"start": 1695651002144,
+					"stop": 1695651002144,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Обработка платежей эквайринга"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Эквайринг: проверка на работу кнопки \"Создать комиссию\" при заполненных оплатах"
+		},
+		{
+			"name": "feature",
+			"value": "Эквайринг: проверка на работу кнопки \"Создать комиссию\" при заполненных оплатах"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,1128 @@
+{
+	"uuid": "36177c8a-74ef-49bc-9c04-8050fa404445",
+	"historyId": "Регресс-РейсНаСклад.Регресс-РейсНаСклад: создается рейс",
+	"name": "Регресс-РейсНаСклад: создается рейс",
+	"fullName": "регресс-рейснасклад.feature_регресс-рейснасклад: создается рейс",
+	"testCaseId": "bf906a76cee577caed156c1973a62777",
+	"start": 1695651812549,
+	"stop": 1695651816014,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'KRAMP' 'Рейс на склад'",
+			"start": 1695651813768,
+			"stop": 1695651813831,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "KRAMP"
+				},
+				{
+					"name": "Парам2",
+					"value": "Рейс на склад"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Рейс на склад'",
+			"start": 1695651813832,
+			"stop": 1695651814895,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рейс на склад"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1695651814895,
+			"stop": 1695651814905,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"АдресДоставки\" стал равен ''",
+			"start": 1695651814906,
+			"stop": 1695651815523,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "АдресДоставки"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И у элемента формы с именем \"ВесРейса\" текст редактирования стал равен '0,000'",
+			"start": 1695651815523,
+			"stop": 1695651815530,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВесРейса"
+				},
+				{
+					"name": "Парам2",
+					"value": "0,000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Город\" стал равен ''",
+			"start": 1695651815530,
+			"stop": 1695651815538,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Город"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Дом\" стал равен ''",
+			"start": 1695651815538,
+			"stop": 1695651815546,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Дом"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда в таблице \"Заказы\" количество строк \"равно\" 0",
+			"start": 1695651815546,
+			"stop": 1695651815565,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Заказы"
+				},
+				{
+					"name": "Парам2",
+					"value": "равно"
+				},
+				{
+					"name": "Парам3",
+					"value": 0
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Квартира\" стал равен ''",
+			"start": 1695651815565,
+			"stop": 1695651815573,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Квартира"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"КЛАДР\" стал равен ',,,,,,,,,,,,,,,,'",
+			"start": 1695651815573,
+			"stop": 1695651815579,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КЛАДР"
+				},
+				{
+					"name": "Парам2",
+					"value": ",,,,,,,,,,,,,,,,"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"КлассификаторГород\" стал равен ''",
+			"start": 1695651815579,
+			"stop": 1695651815585,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КлассификаторГород"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"КлассификаторНаселёнПункт\" стал равен ''",
+			"start": 1695651815585,
+			"stop": 1695651815598,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КлассификаторНаселёнПункт"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"КлассификаторРайон\" стал равен ''",
+			"start": 1695651815799,
+			"stop": 1695651815806,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КлассификаторРайон"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"КлассификаторРегион\" стал равен ''",
+			"start": 1695651815806,
+			"stop": 1695651815814,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КлассификаторРегион"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"КлассификаторУлица\" стал равен ''",
+			"start": 1695651815814,
+			"stop": 1695651815821,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КлассификаторУлица"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"КоличествоМест\" стал равен '0'",
+			"start": 1695651815821,
+			"stop": 1695651815825,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КоличествоМест"
+				},
+				{
+					"name": "Парам2",
+					"value": "0"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Комментарий\" стал равен ''",
+			"start": 1695651815826,
+			"stop": 1695651815834,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Комментарий"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"КомментарийТК\" стал равен ''",
+			"start": 1695651815834,
+			"stop": 1695651815842,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КомментарийТК"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"КонтактноеЛицо\" стал равен ''",
+			"start": 1695651815843,
+			"stop": 1695651815846,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КонтактноеЛицо"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Контрагент\" стал равен ''",
+			"start": 1695651815846,
+			"stop": 1695651815850,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Контрагент"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"НаселёнПункт\" стал равен ''",
+			"start": 1695651815850,
+			"stop": 1695651815856,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НаселёнПункт"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"НеВыдавать\" стал равен 'Нет'",
+			"start": 1695651815857,
+			"stop": 1695651815861,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НеВыдавать"
+				},
+				{
+					"name": "Парам2",
+					"value": "Нет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Номер\" стал равен ''",
+			"start": 1695651815861,
+			"stop": 1695651815865,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Номер"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"НомерНакладной\" стал равен ''",
+			"start": 1695651815865,
+			"stop": 1695651815869,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НомерНакладной"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И у элемента формы с именем \"ОбъемРейса\" текст редактирования стал равен '0,000'",
+			"start": 1695651815869,
+			"stop": 1695651815874,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОбъемРейса"
+				},
+				{
+					"name": "Парам2",
+					"value": "0,000"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Плательщик\" стал равен 'КРАМП ООО 142324, Московская обл, Чехов г, Люторец'",
+			"start": 1695651815874,
+			"stop": 1695651815878,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Плательщик"
+				},
+				{
+					"name": "Парам2",
+					"value": "КРАМП ООО 142324, Московская обл, Чехов г, Люторец"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Подарок\" стал равен 'Нет'",
+			"start": 1695651815878,
+			"stop": 1695651815881,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Подарок"
+				},
+				{
+					"name": "Парам2",
+					"value": "Нет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Район\" стал равен ''",
+			"start": 1695651815882,
+			"stop": 1695651815887,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Район"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Регион\" стал равен ''",
+			"start": 1695651815887,
+			"stop": 1695651815895,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Регион"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Рекламация\" стал равен 'Нет'",
+			"start": 1695651815895,
+			"stop": 1695651815899,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рекламация"
+				},
+				{
+					"name": "Парам2",
+					"value": "Нет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Склад\" стал равен 'Основной склад'",
+			"start": 1695651815899,
+			"stop": 1695651815905,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Склад"
+				},
+				{
+					"name": "Парам2",
+					"value": "Основной склад"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"СписокТерминаловDPD\" стал равен ''",
+			"start": 1695651815905,
+			"stop": 1695651815909,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СписокТерминаловDPD"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"СпособДоставки\" стал равен ''",
+			"start": 1695651815909,
+			"stop": 1695651815913,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СпособДоставки"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"СтатусРейса\" стал равен 'Статус рейса'",
+			"start": 1695651815913,
+			"stop": 1695651815917,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтатусРейса"
+				},
+				{
+					"name": "Парам2",
+					"value": "Статус рейса"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Строение\" стал равен ''",
+			"start": 1695651815917,
+			"stop": 1695651815924,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Строение"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И у элемента формы с именем \"СуммаДоставки\" текст редактирования стал равен '0,00'",
+			"start": 1695651815925,
+			"stop": 1695651815929,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СуммаДоставки"
+				},
+				{
+					"name": "Парам2",
+					"value": "0,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И у элемента формы с именем \"СуммаРейса\" текст редактирования стал равен '0,00'",
+			"start": 1695651815929,
+			"stop": 1695651815933,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СуммаРейса"
+				},
+				{
+					"name": "Парам2",
+					"value": "0,00"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Телефон\" стал равен ''",
+			"start": 1695651815933,
+			"stop": 1695651815937,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Телефон"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"ТипПлательщика\" стал равен '1'",
+			"start": 1695651815937,
+			"stop": 1695651815942,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ТипПлательщика"
+				},
+				{
+					"name": "Парам2",
+					"value": "1"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Транспортная\" стал равен ''",
+			"start": 1695651815942,
+			"stop": 1695651815946,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Транспортная"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"Улица\" стал равен ''",
+			"start": 1695651815946,
+			"stop": 1695651815953,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Улица"
+				},
+				{
+					"name": "Парам2",
+					"value": ""
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И элемент формы с именем \"ФизЛицо\" стал равен 'Нет'",
+			"start": 1695651815953,
+			"stop": 1695651815957,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФизЛицо"
+				},
+				{
+					"name": "Парам2",
+					"value": "Нет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Когда открылось окно 'Рейс на склад (создание)'",
+			"start": 1695651815957,
+			"stop": 1695651815961,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рейс на склад (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Рейс на склад (создание)'",
+			"start": 1695651815962,
+			"stop": 1695651815965,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рейс на склад (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Рейс на склад'",
+			"start": 1695651815965,
+			"stop": 1695651816011,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рейс на склад"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Рейс на склад'",
+			"start": 1695651816012,
+			"stop": 1695651816014,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Рейс на склад"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Регресс-РейсНаСклад: создается рейс"
+		},
+		{
+			"name": "feature",
+			"value": "Регресс-РейсНаСклад: создается рейс"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

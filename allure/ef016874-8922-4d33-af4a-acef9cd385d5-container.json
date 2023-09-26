@@ -1,0 +1,27 @@
+{
+	"uuid": "af0ac9d5-f4b9-4c95-9343-9936e42b8845",
+	"name": "Контекст_Open purchase orders: 106 (Перемещение, сборка, внутр. потреб.)",
+	"description": "",
+	"children": [
+		"ef016874-8922-4d33-af4a-acef9cd385d5"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695650477483,
+			"stop": 1695650478453,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

@@ -1,0 +1,27 @@
+{
+	"uuid": "9e618428-590e-4460-b4c8-25ac31b5fabb",
+	"name": "Контекст_Регресс-отчетВаловаяПрибыльПредприятия: формирования отчета",
+	"description": "",
+	"children": [
+		"b2a13bdf-7512-4d99-8a37-ba85e090f639"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695654623292,
+			"stop": 1695654624245,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

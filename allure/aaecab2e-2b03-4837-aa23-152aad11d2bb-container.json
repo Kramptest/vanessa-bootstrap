@@ -1,0 +1,27 @@
+{
+	"uuid": "746d5e0b-78e1-4cfa-8690-3e7467be47a7",
+	"name": "Контекст_Регресс-Документ-ЗаказКлиента: Kr сальдо расчетов",
+	"description": "",
+	"children": [
+		"aaecab2e-2b03-4837-aa23-152aad11d2bb"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695651606874,
+			"stop": 1695651607967,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

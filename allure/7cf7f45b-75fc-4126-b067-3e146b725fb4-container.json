@@ -1,0 +1,27 @@
+{
+	"uuid": "1d77d43a-4275-4718-9b5b-27e26e22350f",
+	"name": "Контекст_b24-1034",
+	"description": "",
+	"children": [
+		"7cf7f45b-75fc-4126-b067-3e146b725fb4"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695648366419,
+			"stop": 1695648367480,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

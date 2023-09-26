@@ -1,0 +1,27 @@
+{
+	"uuid": "26cda711-a862-4be8-a6de-8ee6af1c2acb",
+	"name": "Контекст_Регресс-РейсНаСклад: Проверка на редактирование полей",
+	"description": "",
+	"children": [
+		"5d0c0ce9-c160-4dc0-be33-2d93cfdcf897"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695651824329,
+			"stop": 1695651825376,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

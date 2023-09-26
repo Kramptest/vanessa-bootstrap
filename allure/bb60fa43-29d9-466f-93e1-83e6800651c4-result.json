@@ -1,0 +1,341 @@
+{
+	"uuid": "bb60fa43-29d9-466f-93e1-83e6800651c4",
+	"historyId": "b24-1129.b24-1129 Проверка на пустые сроки",
+	"name": "b24-1129 Проверка на пустые сроки",
+	"fullName": "задача № 1129.feature_b24-1129 проверка на пустые сроки",
+	"testCaseId": "df0278b974d15aedb0f84a42ac7e3c70",
+	"start": 1695651546514,
+	"stop": 1695651566879,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "Табличный документ содержит ненужные строки <Claas Harvester NO;0002133040KR;0002163290KR;0003599102N;0003599123KR;0005198860N;0005432210KR;0005545022N;0006030160KR;0006032710KR;0006262961KR;0006286010KR;0006286020N;0006298650KR;0006303510NRM;0006306422KR;0006349521N;0006424890KR;0006445171KR;0006477110KR;0006480683KR;0006702640KR;0007465432N;0007511184N;0007964490N;0007984990N;>",
+		"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(12716)}: Табличный документ содержит ненужные строки <Claas Harvester NO;0002133040KR;0002163290KR;0003599102N;0003599123KR;0005198860N;0005432210KR;0005545022N;0006030160KR;0006032710KR;0006262961KR;0006286010KR;0006286020N;0006298650KR;0006303510NRM;0006306422KR;0006349521N;0006424890KR;0006445171KR;0006477110KR;0006480683KR;0006702640KR;0007465432N;0007511184N;0007964490N;0007984990N;>\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Валовая прибыль предприятия - номенклатура/артикул/ABC\n        ИмяАктивнойФормы: ОбщаяФорма.ФормаОтчета\n        ИмяФичи: b24-1129\n        ИмяСценария: b24-1129 Проверка на пустые сроки\n        НомерСтрокиДерева: 479\n        НомерСтрокиФичи: 26\n        ПолныйПутьКФиче: C:\\Tester\\Test_KRAMP\\project directory\\features\\Задача № 1129.feature\n        ИмяФайла: C:/Tester/Test_KRAMP/project directory/tools/vanessa-automation.1.2.040.20/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ТабличныйДокументНеСодержитЗначения\n        ИмяРаннера: mru1t030\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"mru1a013\";Ref=\"KA2KL\";\n        ДопПараметрыПодключения: /N\"ЛатышевК\" \n        PIDКлиентаТестирования: 16776\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1923\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:20 (ч:м:с)\n        ДатаВремяОшибки: 25.09.2023 17:19:26"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Главное' 'Стандартные бухгалтерские отчеты'",
+			"start": 1695651548145,
+			"stop": 1695651548198,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Главное"
+				},
+				{
+					"name": "Парам2",
+					"value": "Стандартные бухгалтерские отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Стандартные бухгалтерские отчеты'",
+			"start": 1695651548198,
+			"stop": 1695651548780,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Стандартные бухгалтерские отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'СтрокаПоиска' я ввожу текст 'Валовая'",
+			"start": 1695651548780,
+			"stop": 1695651548787,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтрокаПоиска"
+				},
+				{
+					"name": "Парам2",
+					"value": "Валовая"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ВыполнитьПоиск'",
+			"start": 1695651548787,
+			"stop": 1695651549939,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВыполнитьПоиск"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на гиперссылку с именем \"Вариант_732f0f39bf5211e9b883caea08596924_Подсистема_716a3153049011e9ac1c00505693134e\"",
+			"start": 1695651549939,
+			"stop": 1695651550747,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вариант_732f0f39bf5211e9b883caea08596924_Подсистема_716a3153049011e9ac1c00505693134e"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Валовая прибыль предприятия - номенклатура/артикул/ABC'",
+			"start": 1695651550747,
+			"stop": 1695651552310,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Валовая прибыль предприятия - номенклатура/артикул/ABC"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я снимаю флаг с именем 'КомпоновщикНастроекПользовательскиеНастройкиЭлемент7Использование'",
+			"start": 1695651552310,
+			"stop": 1695651552321,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "КомпоновщикНастроекПользовательскиеНастройкиЭлемент7Использование"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Период1ДатаНачала' я ввожу текст '07.09.2023'",
+			"start": 1695651552321,
+			"stop": 1695651552335,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Период1ДатаНачала"
+				},
+				{
+					"name": "Парам2",
+					"value": "07.09.2023"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Период1ДатаОкончания' я ввожу текст '07.09.2023'",
+			"start": 1695651552335,
+			"stop": 1695651552363,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Период1ДатаОкончания"
+				},
+				{
+					"name": "Парам2",
+					"value": "07.09.2023"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СформироватьОтчет'",
+			"start": 1695651552363,
+			"stop": 1695651552378,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СформироватьОтчет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И пауза 10",
+			"start": 1695651552378,
+			"stop": 1695651562560,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": 10
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И табличный документ \"ОтчетТабличныйДокумент\" не содержит значения:",
+			"start": 1695651562763,
+			"stop": 1695651566878,
+			"status": "failed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false,
+				"message": "Табличный документ содержит ненужные строки <Claas Harvester NO;0002133040KR;0002163290KR;0003599102N;0003599123KR;0005198860N;0005432210KR;0005545022N;0006030160KR;0006032710KR;0006262961KR;0006286010KR;0006286020N;0006298650KR;0006303510NRM;0006306422KR;0006349521N;0006424890KR;0006445171KR;0006477110KR;0006480683KR;0006702640KR;0007465432N;0007511184N;0007964490N;0007984990N;>",
+				"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(12716)}: Табличный документ содержит ненужные строки <Claas Harvester NO;0002133040KR;0002163290KR;0003599102N;0003599123KR;0005198860N;0005432210KR;0005545022N;0006030160KR;0006032710KR;0006262961KR;0006286010KR;0006286020N;0006298650KR;0006303510NRM;0006306422KR;0006349521N;0006424890KR;0006445171KR;0006477110KR;0006480683KR;0006702640KR;0007465432N;0007511184N;0007964490N;0007984990N;>\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Валовая прибыль предприятия - номенклатура/артикул/ABC\n        ИмяАктивнойФормы: ОбщаяФорма.ФормаОтчета\n        ИмяФичи: b24-1129\n        ИмяСценария: b24-1129 Проверка на пустые сроки\n        НомерСтрокиДерева: 479\n        НомерСтрокиФичи: 26\n        ПолныйПутьКФиче: C:\\Tester\\Test_KRAMP\\project directory\\features\\Задача № 1129.feature\n        ИмяФайла: C:/Tester/Test_KRAMP/project directory/tools/vanessa-automation.1.2.040.20/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ТабличныйДокументНеСодержитЗначения\n        ИмяРаннера: mru1t030\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: Srvr=\"mru1a013\";Ref=\"KA2KL\";\n        ДопПараметрыПодключения: /N\"ЛатышевК\" \n        PIDКлиентаТестирования: 16776\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.22.1923\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: Версия8_3_17\n        ВремяРаботыСценария: 0:00:20 (ч:м:с)\n        ДатаВремяОшибки: 25.09.2023 17:19:26"
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтчетТабличныйДокумент"
+				}
+			],
+			"attachments": [
+				{
+					"name": "table",
+					"source": "2d0d5b8a-6f7c-4bf2-9a67-be4e5336a3aa-attachment.csv",
+					"type": "text/csv"
+				},
+				{
+					"name": "ЖурналРегистрации.mxl",
+					"source": "0632a192-728a-4449-afd4-fd5b40454c9d-attachment.mxl",
+					"type": "mxl"
+				},
+				{
+					"name": "ЖурналРегистрации.html",
+					"source": "1633d9c0-4599-4ca9-ba87-1fba1e2d8511-attachment.html",
+					"type": "html"
+				},
+				{
+					"name": "ЖурналРегистрации.xlsx",
+					"source": "92653092-b217-4162-9789-17c72a3ec651-attachment.xlsx",
+					"type": "xlsx"
+				}
+			],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "b24-1129 Проверка на пустые сроки"
+		},
+		{
+			"name": "feature",
+			"value": "b24-1129 Проверка на пустые сроки"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [
+		{
+			"name": "ЖурналРегистрации.mxl",
+			"source": "e5682712-e55f-4b16-ab05-1e75e0bab7b1-attachment.mxl",
+			"type": "mxl"
+		},
+		{
+			"name": "ЖурналРегистрации.html",
+			"source": "29dccfcf-f0df-44ce-8552-526de4b595e9-attachment.html",
+			"type": "html"
+		},
+		{
+			"name": "ЖурналРегистрации.xlsx",
+			"source": "10f2dcf6-ce87-4999-bb6a-bf9c519051ca-attachment.xlsx",
+			"type": "xlsx"
+		}
+	],
+	"description": null
+}

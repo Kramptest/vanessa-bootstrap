@@ -1,0 +1,27 @@
+{
+	"uuid": "cb1ffdeb-0d8f-49f6-bbeb-474a4d602ab1",
+	"name": "Контекст_Регресс-Документ-ЗаказКлиента: Правила оплаты (заполнить по умолчанию)",
+	"description": "",
+	"children": [
+		"d1840b0f-2efb-4b05-baef-6a50e38b78af"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695651634818,
+			"stop": 1695651635874,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

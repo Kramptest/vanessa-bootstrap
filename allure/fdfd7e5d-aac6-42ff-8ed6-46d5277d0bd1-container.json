@@ -1,0 +1,27 @@
+{
+	"uuid": "62290324-664d-4103-9427-a9127353d46d",
+	"name": "Контекст_Регресс-Документ-ЗаказКлиента: Проверка на наличие колонок",
+	"description": "",
+	"children": [
+		"fdfd7e5d-aac6-42ff-8ed6-46d5277d0bd1"
+	],
+	"befores": [
+		{
+			"name": "Дано Я запускаю сценарий открытия TestClient или подключаю уже существующий",
+			"start": 1695650695465,
+			"stop": 1695650696646,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}

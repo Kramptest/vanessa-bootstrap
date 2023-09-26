@@ -1,0 +1,292 @@
+{
+	"uuid": "b35cbf7c-6cdf-4eb9-bc3e-129d00ed6956",
+	"historyId": "Регресс-отчетВаловаяПрибыльПредприятия.Регресс-отчетВаловаяПрибыльПредприятия: формирования отчета",
+	"name": "Регресс-отчетВаловаяПрибыльПредприятия: формирования отчета",
+	"fullName": "регресс-отчетваловаяприбыльпредприятия.feature_регресс-отчетваловаяприбыльпредприятия: формирования отчета",
+	"testCaseId": "75230eee2f92d58fd3debcfbbd5f6874",
+	"start": 1695650950434,
+	"stop": 1695650965571,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "И В командном интерфейсе я выбираю 'Главное' 'Стандартные бухгалтерские отчеты'",
+			"start": 1695650951855,
+			"stop": 1695650951887,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Главное"
+				},
+				{
+					"name": "Парам2",
+					"value": "Стандартные бухгалтерские отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Стандартные бухгалтерские отчеты'",
+			"start": 1695650951887,
+			"stop": 1695650952480,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Стандартные бухгалтерские отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'СтрокаПоиска' я ввожу текст 'Валовая'",
+			"start": 1695650952480,
+			"stop": 1695650952480,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СтрокаПоиска"
+				},
+				{
+					"name": "Парам2",
+					"value": "Валовая"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ВыполнитьПоиск'",
+			"start": 1695650952480,
+			"stop": 1695650953621,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ВыполнитьПоиск"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к закладке с именем \"Ожидание\"",
+			"start": 1695650953621,
+			"stop": 1695650954512,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Ожидание"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на гиперссылку с именем \"Вариант_732f0f39bf5211e9b883caea08596924_Подсистема_716a3153049011e9ac1c00505693134e\"",
+			"start": 1695650954512,
+			"stop": 1695650954543,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Вариант_732f0f39bf5211e9b883caea08596924_Подсистема_716a3153049011e9ac1c00505693134e"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Валовая прибыль предприятия - номенклатура/артикул/ABC'",
+			"start": 1695650954543,
+			"stop": 1695650955855,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Валовая прибыль предприятия - номенклатура/артикул/ABC"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'СформироватьОтчет'",
+			"start": 1695650955855,
+			"stop": 1695650955855,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "СформироватьОтчет"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И пауза 10",
+			"start": 1695650955871,
+			"stop": 1695650965060,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": 10
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда элемент формы \"ОтчетТабличныйДокумент\" присутствует на форме",
+			"start": 1695650965267,
+			"stop": 1695650965283,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ОтчетТабличныйДокумент"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Валовая прибыль предприятия - номенклатура/артикул/ABC'",
+			"start": 1695650965283,
+			"stop": 1695650965283,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Валовая прибыль предприятия - номенклатура/артикул/ABC"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И Я закрываю окно 'Стандартные бухгалтерские отчеты'",
+			"start": 1695650965283,
+			"stop": 1695650965570,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Стандартные бухгалтерские отчеты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Регресс-отчетВаловаяПрибыльПредприятия: формирования отчета"
+		},
+		{
+			"name": "feature",
+			"value": "Регресс-отчетВаловаяПрибыльПредприятия: формирования отчета"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "features"
+		},
+		{
+			"name": "host",
+			"value": "mru1a013"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
